@@ -1,0 +1,5 @@
+
+rule cc
+    command = g++ $in -o $out
+
+build hello: cc hello.cpp
